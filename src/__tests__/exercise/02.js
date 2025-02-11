@@ -34,5 +34,5 @@ test('counter increments and decrements when the buttons are clicked', () => {
   fireEvent.click(increment);
   expect(message).toHaveTextContent('Current count: 1')
   fireEvent.click(decrement);
-  expect(message).toHaveTextContent('Current count: 10')
+  expect(message).toHaveTextContent('Current count: 0')
 })
